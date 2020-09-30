@@ -1,0 +1,1 @@
+CREATE TABLE user_info(xyz VARCHAR(20));
