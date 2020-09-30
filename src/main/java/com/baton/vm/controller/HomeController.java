@@ -55,6 +55,7 @@ public class HomeController {
             cart.add(item.getItem());
             total += item.getItem().getPrice();
             vmService.updateStock(Integer.parseInt(itemID));
+            cart.clear();
             mv.addObject("total", total);
         }
         mv.setViewName("home");
