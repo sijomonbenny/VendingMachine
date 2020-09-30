@@ -1,0 +1,133 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: Arial;
+}
+
+.appbar {
+	width: 100%;
+	height: 45px;
+	background-color: #012034;
+}
+
+.itemData>table {
+	padding: 10px;
+	font-family: Arial Narrow;
+}
+
+.itemData  td {
+	padding: 5px;
+	text-align: center;
+	width: 10em;
+}
+
+.itemData  th {
+	padding: 5px;
+	text-align: center;
+	background-color: #575759;
+	color: white;
+}
+
+.itemData  tr {
+	height: 1em;
+}
+
+.itemData   tr:nth-child(even) {
+	background-color: #eee;
+}
+
+.itemData   tr:nth-child(odd) {
+	background-color: #fff;
+}
+
+.pagetitle {
+	border-top: 1px solid DodgerBlue;
+	width: 100%;
+	height: 30px;
+	background-color: #232423;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.title {
+	padding: 7px;
+}
+
+.transhead {
+	font-family: Arial Narrow;
+	color: #027ba3;
+}
+
+.databox {
+	
+}
+
+.btn {
+	margin-top: 2px;
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	padding: 12px 16px;
+	font-size: 14px;
+	cursor: pointer;
+	width: 124px;
+}
+
+.btn>a {
+	font-family: Arial Narrow;
+	text-decoration: none;
+	color: white;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+	background-color: RoyalBlue;
+}
+
+.close-btn {
+	border-radius: 5px;
+	background-color: #eb000c;
+	border: none;
+	color: white;
+	padding: 6px 8px;
+	font-size: 14px;
+	cursor: pointer;
+	width: 50px;
+}
+
+.save-btn {
+	border-radius: 5px;
+	background-color: #07a824;
+	border: none;
+	color: white;
+	padding: 6px 8px;
+	font-size: 14px;
+	cursor: pointer;
+	width: 78px;
+}
+
+.close-btn>a {
+	font-family: Arial Narrow;
+	text-decoration: none;
+	color: white;
+}
+
+.close-btn:hover {
+	background-color: #bd0811;
+}
+
+input {
+	padding: 5px;
+}
+.amount-style {
+	border: 1px solid #2c7835;
+	border-radius:10px;
+	margin-top:10px;
+	background-color: #49de85;
+	width: 22%;
+	padding:10px;
+}
+.amount-style > h3 {	
+	color:#2c7835;
+	margin:0px;
+}
